@@ -1,5 +1,5 @@
 
-# The Role of Potassium and Calcium Currents in the Bistable Firing Transition
+# The Roles of Potassium and Calcium Currents in the Bistable Firing Transition
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -11,10 +11,9 @@
   - [Network Neurons](#network-neurons)
 - [Acknowledgments](#acknowledgments)
 - [Contributors](#contributors)
-<!-- - [Contributing](#contributing) -->
 
 ## Introduction
-This repository contains the codes, routines and notebooks used in the work *"The Role of Potassium and Calcium Currents in the Bistable Firing Transition"*. 
+This repository contains the codes, routines and notebooks used in the work *"The Roles of Potassium and Calcium Currents in the Bistable Firing Transition"*. 
 
 ## Getting Started
 ### Prerequisites
@@ -46,7 +45,7 @@ Open the model's Jupyter notebook
 
 select the kernel with the virtual environment where the python packages were installed and run all the notebook cells. This is the result shown in Figure 1(A).
 
-### Network Neurons 
+### Neuron Networks
 
 To simulate neuron networks it is recommended to configure the simulation parameters in the [cfg.py](simulations_network/cfg.py) file and the network parameters in the [netParams.py](simulations_network/netParams.py) file. To run the simulation, use the `python3 init.py` command.
 
@@ -59,9 +58,9 @@ The results are stored in the location defined in the simulation configuration f
 
 ## Acknowledgments
 
-Acknowledgments
+F.S.B., P.R.P., and R.F.O.P.: Conceived the work. F.S.B., P.R.P., C.F.B., and S.D.B.: 390 Developed the codes. F.S.B., P.R.P., D.L.M.S., C.F.B., E.C.G., L.E.B., J.D.S.J., A.M.B., I.L.C., S.D.B., and 391 R.F.O.P.: Analyzed the simulations, discussed the results, wrote and corrected the manuscript. All 392 authors have read and agreed to the published version of the manuscript.
 
-## Contributors
+## Repository contributors
 
 * [Fernando S. Borges](https://github.com/FernandoSBorges/)
 * [Conrado F. Bittencourt](https://github.com/ConradBitt/)
